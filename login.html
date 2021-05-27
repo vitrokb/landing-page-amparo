@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Landing Page - Login</title>
+</head>
+<body>
+  <!-- NORMAL NAV -->
+  <nav class="nav-content" id="nav-login-identifier">
+    <div class="nav-content-flex">
+      <div class="nav-buttons">
+        <a href="#header" class="container-link_scroll nav-logo"></a>
+        <a href="#como-funciona" class="normal-button first-button container-link_scroll">Como funciona?</a>
+        <a href="#profissionais" class="normal-button container-link_scroll">Profissionais</a>
+        <a href="#servicos" class="normal-button container-link_scroll">Serviços</a>
+        <a href="#duvidas" class="normal-button container-link_scroll">Dúvidas</a>
+        <a href="#fale-conosco" class="normal-button last-normal-button container-link_scroll">Fale Conosco</a>
+        <div>
+          <button class="user-button">
+            <img class="user-img" src="images/Amparo_FotosEspecialidades_Cuidadora.png">
+            Renata
+            <div class="arrow down arrow-identifier"></div>
+          </button>
+          <div class="user-login-content login-menu-identifier disable-items">
+            <div class="user-login-first-section">
+              <button class="first-login-options">Atendimentos</button>
+              <button class="first-login-options">Agenda</button>
+              <button class="first-login-options">Solicitações</button>
+              <button class="first-login-options">Recebimento</button>
+              <button class="first-login-options">Avaliações</button>
+              <button class="first-login-options">Mensagens</button>
+              <button class="first-login-options">Meu Perfil</button>
+            </div>
+            <div class="user-login-second-section">
+              <button class="second-login-options">Ajuda</button>
+              <button class="second-login-options">Termos de Uso</button>
+              <button class="second-login-options">Sair</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- RESPONSIVE NAV -->
+  <div class="responsive-nav-content" id="responsive-nav-login-identifier">
+    <div class="responsive-nav">
+      <a href="#header" class="container-link_scroll logo"></a>
+      <div class="menu-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <div class="links">
+        <div>
+          <button class="user-button-responsive">
+            <img class="user-img" src="images/Amparo_FotosEspecialidades_Cuidadora.png">
+            Renata
+            <div class="arrow down arrow-identifier-responsive"></div>
+          </button>
+          <div class="user-login-content login-menu-identifier-responsive disable-items-responsive disable-items">
+            <div class="user-login-first-section">
+              <button class="first-login-options">Atendimentos</button>
+              <button class="first-login-options">Agenda</button>
+              <button class="first-login-options">Solicitações</button>
+              <button class="first-login-options">Recebimento</button>
+              <button class="first-login-options">Avaliações</button>
+              <button class="first-login-options">Mensagens</button>
+              <button class="first-login-options">Meu Perfil</button>
+            </div>
+            <div class="user-login-second-section">
+              <button class="second-login-options">Ajuda</button>
+              <button class="second-login-options">Termos de Uso</button>
+              <button class="second-login-options">Sair</button>
+            </div>
+        </div>
+        </div>
+        <a href="#como-funciona" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Como funciona?</a>
+        <a href="#profissionais" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Profissionais</a>
+        <a href="#servicos" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Serviços</a>
+        <a href="#duvidas" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Dúvidas</a>
+        <a href="#fale-conosco" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Fale Conosco</a>
+      </div>
+    </div>
+  </div>
+
+<!-- MAIN CONTENT -->
+  <div class="main-content-login">
+    <div class="login-area-content-background">
+      <div class="login-area-content">
+        <div class="login-title-content row">
+          <h6>QUE BOM TE VER POR AQUI</h6>
+          <h2>Entrar no Amparo</h2>
+          <p>Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit culpa.</p>
+        </div>
+        <div class="login-inputs-content container">
+          <div class="row">
+            <div class="col-6">
+              <input class="login-input" type="text" placeholder="E-mail">
+            </div>
+            <div class="col-6">
+              <input class="login-input" type="text" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <input class="login-input-password" type="text" placeholder="Senha">
+            </div>
+          </div>
+        </div>
+        <div class="or-separator">
+          <div class="line"></div>
+          <p>OU</p>
+          <div class="line"></div>
+        </div>
+        <button class="google-login-button">
+          <img src="./login-icons/google-logo2.png">
+          <p class="google-login-button-paragraph">Entrar com o Google</p>
+        </button>
+        <a href="" class="login-ancor">Esqueci minha senha</a>
+        <div class="keep-conected">
+          <label class="customcheck">Me mantenha conectado
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <button class="login-default-button">Entrar</button>
+        <div class="full-line"></div>
+        <div class="sign-in-content">
+          <p>Ainda não tem conta?</p>
+          <a href="" class="login-ancor-sign-in">Cadastre-se aqui!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-content">
+    <div class="footer-cols-content">
+      <div class="footer-col-1">
+        <a href="#header" class="container-link_scroll footer-logo"></a>
+        <p>Suspendisse pellentesque nunc tempor consequat iaculis. Nam a libero in justo imperdiet lacinia.</p>
+      </div>
+      <div class="footer-col-2">
+        <a href="" class="footer-anchor">Para quem foi feito?</a>
+        <a href="" class="footer-anchor">Como funciona?</a>
+        <a href="" class="footer-anchor">Profissionais Disponíveis</a>
+        <a href="" class="footer-anchor">Procedimentos Disponíveis</a>
+        <a href="" class="footer-anchor">Dúvidas Frequentes</a>
+        <a href="" class="footer-anchor">Central de Atendimento</a>
+      </div>
+      <div class="footer-col-3">
+        <a href="" class="footer-last-col-p footer-anchor">Solicite um procedimento</a>
+        <a href="" class="footer-last-col-p footer-anchor">Seja um profissional</a>
+        <a href="" class="footer-last-col-p footer-anchor">Política de Privacidade</a>
+        <a href="" class="footer-last-col-p footer-anchor">Termos de Uso</a>
+        <div class="footer-col-3-socials">
+          <p class="footer-last-p">Siga:</p>
+          <img src="images/footer-facebook.png">
+          <img src="images/footer-instagram.png">
+        </div>
+      </div>
+    </div>
+    <p class="footer-copyright">2021 © Amparo App - Todos os direitos reservados. Site projetado por brifa.me e desenvolvido por BlueLogic.</p>
+  </footer>
+  <div class="final"></div>
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

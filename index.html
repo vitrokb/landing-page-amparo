@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Landing Page - Index</title>
+</head>
+<body>
+  <nav class="nav-content" id="nav-index-identifier">
+    <div class="nav-content-flex">
+      <div class="nav-buttons">
+        <a href="#header" class="container-link_scroll nav-logo"></a>
+        <a href="#como-funciona" class="normal-button first-last-button container-link_scroll">Como funciona?</a>
+        <a href="#profissionais" class="normal-button container-link_scroll">Profissionais</a>
+        <a href="#servicos" class="normal-button container-link_scroll">Serviços</a>
+        <a href="#duvidas" class="normal-button container-link_scroll">Dúvidas</a>
+        <a href="#fale-conosco" class="normal-button last-normal-button container-link_scroll">Fale Conosco</a>
+        <button class="enter-button">Entrar</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="responsive-nav-content" id="responsive-nav-index-identifier">
+    <div class="responsive-nav">
+
+      <a href="#header" class="container-link_scroll logo"></a>
+
+      <div class="menu-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <div class="links">
+        <button class="enter-button-responsive" onclick="removeOn()">Entrar</button>
+        <a href="#como-funciona" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Como funciona?</a>
+        <a href="#profissionais" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Profissionais</a>
+        <a href="#servicos" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Serviços</a>
+        <a href="#duvidas" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Dúvidas</a>
+        <a href="#fale-conosco" onclick="removeOn()" class="normal-button-responsive container-link_scroll">Fale Conosco</a>
+      </div>
+    </div>
+  </div>
+
+  <header id="header" class="header-content">
+    <div class="header-text-content">
+      <h4 class="header-text-subtitle">Chegou o Amparo.</h4>
+      <h3 class="header-text-title">O cuidado que você precisa está aqui.</h3>
+      <p class="header-text-paragraph">Seja bem-vindo a um novo conceito de cuidados em saúde domiciliar. Aqui você encontrará profissionais qualificados para atender às demandas dos pacientes e um sistema que fará toda a gestão de escalas e atividades.</p>
+      <button class="know-button">Conheça agora</button>
+    </div>
+  </header>
+  <section class="cards-section-content">
+    <div>
+      <h3 class="cards-section-title">Para quem o Amparo foi feito?</h3>
+      <p class="cards-section-paragraph">A Amparo foi desenvolvida para qualquer pessoa física ou jurídica que necessite de profissionais qualificados e certificados para demandas de cuidados em saúde. </p>
+    </div>
+    <div class="cards-content">
+      <div class="card-with-no-label">
+        <div class="my-card">
+          <img src="images/nurse.png">
+          <h6 class="card-title">Profissionais</h6>
+          <p class="card-paragraph">Deseja ser um profissional prestador de serviço? Clique aqui e faça seu cadastro.</p>
+        </div>
+      </div>
+      <div class="card-with-no-label">
+        <div class="my-card">
+          <img src="images/heart.png">
+          <h6 class="card-title">Pacientes</h6>
+          <p class="card-paragraph">Está buscando profissionais qualificados para atendimento em saúde no ambiente domiciliar?Clique e conheça nossos serviços.</p>
+        </div>
+      </div>
+      <div class="card-with-label">
+        <div class="comming-soon-label">
+          Em breve
+        </div>
+        <div class="my-card">
+          <img src="images/ambulance.png">
+          <h6 class="card-title">Operadoras</h6>
+          <p class="card-paragraph">Em breve</p>
+        </div>
+      </div>
+      <div class="card-with-label">
+        <div class="comming-soon-label">
+          Em breve
+        </div>
+        <div class="my-card">
+          <img src="images/hospital.png">
+          <h6 class="card-title">Hospitais</h6>
+          <p class="card-paragraph">Em breve</p>
+        </div>
+      </div>
+      <div class="card-with-label">
+        <div class="comming-soon-label">
+          Em breve
+        </div>
+        <div class="my-card">
+          <img src="images/blood.png">
+          <h6 class="card-title">Instituições</h6>
+          <p class="card-paragraph">Em breve</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="como-funciona" class="how-works-content">
+    <div class="how-works-title-content">
+      <h3 class="how-works-title">Como funciona o Amparo?</h3>
+      <!-- <p class="how-works-subtitle">Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit culpa anim id est occae laborum. </p> -->
+    </div>
+    <div class="cellphone-content">
+      <div class="cellphone-text-left">
+        <div class="cellphone-text-content first-text-content">
+          <h4 class="cellphone-text-title-left">Faça seu cadastro</h4>
+          <p class="cellphone-text-paragraph-left">Você pode se cadastrar como paciente ou como responsável.</p>
+        </div>
+        <div class="cellphone-text-content">
+          <h4 class="cellphone-text-title-left">Descreva suas necessidades</h4>
+          <p class="cellphone-text-paragraph-left">Insira as informações necessárias para que possamos entender o perfil do paciente e seu histórico.</p>
+        </div>
+        <div class="cellphone-text-content">
+          <h4 class="cellphone-text-title-left">Indique os profissionais e procedimentos</h4>
+          <p class="cellphone-text-paragraph-left">De acordo com as necessidades, indique os profissionais que você precisa e/ou os procedimentos. Se estiver em dúvida, fique tranquilo, nossa equipe de enfermagem irá lhe ajudar.</p>
+        </div>
+        <div class="cellphone-text-content">
+          <h4 class="cellphone-text-title-left">Monte a agenda</h4>
+          <p class="cellphone-text-paragraph-left">Insira no calendário os dias e horários que você necessita dos atendimentos. Caso você precise se ajuda com esse planejamento, nossa equipe irá orientá-lo(a).</p>
+        </div>
+      </div>
+      <div class="phone-screen-content">
+        <img class="phone-screen" src="images/phone-screen.png" />
+      </div>
+      <div class="cellphone-text-right">
+        <div class="cellphone-text-content first-text-content">
+          <h4 class="cellphone-text-title-right">Selecione os profissionais</h4>
+          <p class="cellphone-text-paragraph-right">Dentro de 24 horas você irá começar a receber propostas e orçamentos de profissionais que possam atender às suas demandas. Escolha o profissional de acordo com a sua preferência.</p>
+        </div>
+        <div class="cellphone-text-content">
+          <h4 class="cellphone-text-title-right">Confirme os agendamentos</h4>
+          <p class="cellphone-text-paragraph-right">Confirme todos os procedimentos solicitados. Após a sua confirmação a agenda do profissional fica reservada para o seu atendimento.</p>
+        </div>
+        <div class="cellphone-text-content">
+          <h4 class="cellphone-text-title-right">Pagamento Online</h4>
+          <p class="cellphone-text-paragraph-right">O pagamento poderá ser feito por boleto ou cartão de crédito. Os pagamentos somente serão debitados após a conclusão do atendimento.</p>
+        </div>
+        <div class="cellphone-text-content">
+          <h4 class="cellphone-text-title-right">Avalie o atendimento</h4>
+          <p class="cellphone-text-paragraph-right">Nos conte como foi o atendimento. Se gostou do profissional e gostaria de fixa-lo na rotina, coloque nos seus favoritos e dê preferência para receber pedidos seus. Se precisar de ajuda a qualquer momento durante um atendimento, entre em contato com a nossa equipe 24h.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="profissionais" class="professionals-content">
+    <div class="professionals-title-content">
+      <h3 class="professionals-title">Com quais profissionais você pode contar?</h3>
+      <p class="professionals-subtitle">Os profissionais disponíveis hoje estão colocados abaixo. Em breve, adicionaremos mais categorias de profissionais ligados à saúde domiciliar, a fim de termos equipes multidisciplinares completas, capazes de atender qualquer perfil de paciente.</p>
+    </div>
+    <div class="professionals-cards-content">
+      <div class="professional-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_Medico.png" />
+        <h6 class="professionals-card-title">Médicos</h6>
+      </div>
+      <div class="professional-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_Enfermeiro.png" />
+        <h6 class="professionals-card-title">Enfermeiros</h6>
+      </div>
+      <div class="professional-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_Fisioterapeuta.png" />
+        <h6 class="professionals-card-title">Fisioterapeutas</h6>
+      </div>
+      <div class="professional-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_pSICÓLOGA.png" />
+        <h6 class="professionals-card-title">Psicólogos</h6>
+      </div>
+      <div class="professional-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_Cuidadora.png" />
+        <h6 class="professionals-card-title">Cuidadores</h6>
+      </div>
+      <div class="professional-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_Tecnica.png" />
+        <h6 class="professionals-card-title">Técnicos em Enfermagem</h6>
+      </div>
+      <div class="professional-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_Laboratorio.png" />
+        <h6 class="professionals-card-title">Laboratórios de Análises</h6>
+      </div>
+      <div class="professional-card last-card">
+        <img class="professional-image" src="./images/Amparo_FotosEspecialidades_Breve.png" />
+        <h6 class="professionals-card-title">Em breve novas especialidades</h6>
+      </div>
+    </div>
+    <button class="default-button">Seja um profissional</button>
+  </section>
+  <section id="servicos" class="avaliable-care-section">
+    <div class="avaliable-care-title-content">
+      <h3 class="avaliable-care-title">Quais cuidados estão disponíveis?</h3>
+      <p class="avaliable-care-subtitle">Você pode requisitar o seu atendimento nos dizendo quais procedimentos você necessita que iremos buscar os profissionais adequados para você. Em breve, novos procedimentos estarão disponíveis.</p>
+    </div>
+    <div class="avaliable-card-content">
+      <div class="first-col-content">
+        <div class="first-col">
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-1.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+              <h6 class="avaliable-card-title">Auxílio na Alimentação</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-1.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Acompanhamento e Vigilância</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-1.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Consultas<br>Médicas</h6>
+          </div>
+        </div>
+        <div class="second-col">
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-2.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Verificação de Sinais e HGT</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-2.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Troca de<br>Sondas</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-2.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Consultas de Enfermagem</h6>
+          </div>
+        </div>
+      </div>
+      <div class="second-col-content">
+        <div class="thrid-col">
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-3.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Aplicação e Troca de Curativos</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-3.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Higiene e<br>Conforto</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-3.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Atendimento Psicológico</h6>
+          </div>
+        </div>
+        <div class="fourth-col">
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-4.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Administração de Medicamentos</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-4.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title">Sessões de Fisioterapia</h6>
+          </div>
+          <div class="avaliable-card">
+            <div>
+              <img class="avaliable-first-img" src="./images/Shape-coluna-4.png" />
+              <img class="avaliable-second-img" src="./images/care.png" />
+            </div>
+            <h6 class="avaliable-card-title"><span>Coleta de<br> Exames</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="default-button">Solicite atendimento!</button>
+  </section>
+  <section class="launch-content">
+    <div class="launch-image">
+      <img src="images/Amparo_BreveApp.png">
+    </div>
+    <div class="launch-text-content">
+      <h6 class="first-launch-text">Aplicativo Amparo</h6>
+      <h1 class="second-launch-text">Lançamento <br>em breve!</h1>
+      <p class="third-launch-text">Em breve disponível nas plataformas Androis e IOS.</p>
+      <div class="launch-input-content">
+        <input class="launch-input" type="text" placeholder="Informe seu e-mail" />
+        <button class="launch-button">Enviar</button>
+      </div>
+    </div>
+  </section>
+  <section id="duvidas" class="faq-section-content">
+    <div class="faq-title-content">
+      <h3 class="faq-title">Dúvidas Frequentes</h3>
+      <p class="faq-subtitle">Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit culpa anim id est occae laborum. </p>
+    </div>
+    <div class="faq-content">
+      <div class="faq">
+        <h5 class="faq-question">Como instalar o aplicativo?</h5>
+        <button class="toggle-button" value="1">+</button>
+      </div>
+      <div id="1-faq-answer" class="faq">
+        <p class="first-answer">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. Egestas egestas purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+      </div>
+      <div class="main-page-line"></div>
+      <div class="faq">
+        <h5 class="faq-question">Para quais plataformas está disponível?</h5>
+        <button class="toggle-button" value="2">+</button>
+      </div>
+      <div id="2-faq-answer" class="faq hide-answer">
+        <p class="first-answer">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. Egestas egestas purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+      </div>
+      <div class="main-page-line"></div>
+      <div class="faq">
+        <h5 class="faq-question">Para quais cidades está disponível?</h5>
+        <button class="toggle-button" value="3">+</button>
+      </div>
+      <div id="3-faq-answer" class="faq hide-answer">
+        <p class="first-answer">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. Egestas egestas purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+      </div>
+      <div class="main-page-line"></div>
+      <div class="faq">
+        <h5 class="faq-question">Quais profissionais podem se cadastrar?</h5>
+        <button class="toggle-button" value="4">+</button>
+      </div>
+      <div id="4-faq-answer" class="faq hide-answer">
+        <p class="first-answer">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. Egestas egestas purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+      </div>
+      <div class="main-page-line"></div>
+      <div class="faq">
+        <h5 class="faq-question">Como são definidos os atendimentos?</h5>
+        <button class="toggle-button" value="5">+</button>
+      </div>
+      <div id="5-faq-answer" class="faq hide-answer">
+        <p class="first-answer">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. Egestas egestas purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+      </div>
+      <div class="main-page-line"></div>
+      <div class="faq">
+        <h5 class="faq-question">Como são realizados os pagamentos?</h5>
+        <button class="toggle-button" value="6">+</button>
+      </div>
+      <div id="6-faq-answer" class="faq hide-answer">
+        <p class="first-answer">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. Egestas egestas purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+      </div>
+    </div>
+    <h5 class="last-faq-question">Ficou com alguma dúvida?</h5>
+    <button class="faq-button">Fale Conosco</button>
+  </section>
+  <section class="partners-section-content">
+    <div class="partners-title-content">
+      <h3 class="partners-title">Nossos Parceiros:</h5>
+    </div>
+    <div class="partners-cards-content">
+      <div class="partners-card">
+        <img src="./images/tecnopuc-logo.png" />
+      </div>
+      <div class="partners-card">
+        <img src="./images/tecnopuc-logo.png" />
+      </div>
+      <div class="partners-card">
+        <img src="./images/tecnopuc-logo.png" />
+      </div>
+      <div class="partners-card">
+        <img src="./images/tecnopuc-logo.png" />
+      </div>
+    </div>
+  </section>
+  <section class="recomendations-section-content">
+    <div class="recomendations-title-content">
+      <h3>Quem recomenda:</h3>
+      <p>Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit culpa anim id est occae laborum. </p>
+    </div>
+    <div class="recomendation-card-content">
+      <button type="button" onclick="previousSlide()" class="arrow-content">
+        <img src="./images/left-arrow.png">
+      </button>
+      <!-- primeiro card -->
+      <div class="recomendation-card container-fluid fade myslide active">
+        <div class="recomendation-card-shape container-fluid">
+          <div class="recomendation-card-picture container-fluid">
+            <img src="images/foto-recomendacao-complemento.png">
+          </div>
+          <p>Primeiro Card</p>
+        </div>
+        <div class="recomendation-name">
+          <h3>Joana da Silva</h3>
+          <p>Diretora Casa do Menino Jesus de Praga</p>
+        </div>
+      </div>
+      <!-- fim primeiro card -->
+      <div class="recomendation-card container-fluid fade myslide unactiveSlide">
+        <div class="recomendation-card-shape container-fluid">
+          <div class="recomendation-card-picture container-fluid">
+            <img src="images/foto-recomendacao-complemento.png">
+          </div>
+          <p>Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis nibh posuere. Aenean sagittis nisl. Uthicula sagitti, lorem ipsum sit amet dolor.</p>
+        </div>
+        <div class="recomendation-name">
+          <h3>Segundo Card</h3>
+          <p>Diretora Casa do Menino Jesus de Praga</p>
+        </div>
+      </div>
+      <!-- fim segundo card -->
+      <button type="button" onclick="nextSlide()" class="arrow-content-right">
+        <img src="./images/right-arrow.png">
+      </button>
+    </div>
+  </section>
+  <section class="news-section-content">
+    <div class="news-title-content">
+      <h3 class="news-title">Receba nossas novidades!</h3>
+      <p class="news-paragraph">Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit culpa anim id est occae laborum. </p>
+    </div>
+    <div class="news-input-area">
+      <input class="news-input" type="text" placeholder="Preencha seu endereço de e-mail" />
+      <button class="news-button">Inscrever</button>
+    </div>
+  </section>
+  <section class="networks-section-content">
+    <div class="networks-title-content">
+      <h3 class="networks-title">Amparo nas Redes Sociais</h3>
+      <p class="networks-paragraph">Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit culpa anim id est occae laborum. </p>
+    </div>
+    <div class="networks-cards-content">
+      <div class="networks-card-1">
+        <div class="networks-card-text">
+          <p class="networks-card-first-paragraph">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue.</p>
+          <p>Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+          <p>Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. </p>
+        </div>
+        <div class="networks-line"></div>
+        <div class="networks-footer">
+          <div class="networks-footer-status">
+            <img src="images/social-heart.png" />
+            <p>55</p>
+            <img src="images/social-coments.png" />
+            <p>4</p>
+          </div>
+          <img class="networks-insta-logo" src="images/social-logo-insta.png" />
+        </div>
+      </div>
+      <div class="networks-card-2">
+        <div class="networks-card-text">
+          <p class="networks-card-first-paragraph">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue.</p>
+          <p>Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+          <p>Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. </p>
+        </div>
+        <div class="networks-line"></div>
+        <div class="networks-footer">
+          <div class="networks-footer-status">
+            <img src="images/social-heart.png" />
+            <p>55</p>
+            <img src="images/social-coments.png" />
+            <p>4</p>
+          </div>
+          <img class="networks-insta-logo" src="images/social-logo-insta.png" />
+        </div>
+      </div>
+      <div class="networks-card-3">
+        <div class="networks-card-text">
+          <p class="networks-card-first-paragraph">Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue.</p>
+          <p>Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa. Nam tristique nibh sed urna molestie.</p>
+          <p>Sed a venenatis mi, vel tempus neque. Fusce pharetra, diam in hendr facilisis, enim diam cursus augue. </p>
+        </div>
+        <div class="networks-line"></div>
+        <div class="networks-footer">
+          <div class="networks-footer-status">
+            <img src="images/social-heart.png" />
+            <p>55</p>
+            <img src="images/social-coments.png" />
+            <p>4</p>
+          </div>
+          <img class="networks-insta-logo" src="images/social-logo-insta.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="fale-conosco" class="form-section-content">
+    <div class="form-title-content">
+      <h6>Fale com a nossa equipe</h6>
+      <h2>Central de Atendimento</h2>
+      <p>Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit culpa anim id est occae laborum. </p>
+    </div>
+    <div class="form-content">
+      <div class="form-inputs">
+        <div class="form-first-block">
+          <input class="form-input-shadow" type="text" placeholder="Nome">
+          <input class="form-input-shadow" type="text" placeholder="E-mail">
+          <input class="form-input-shadow" type="text" placeholder="Telefone">
+          <input class="form-input-shadow" type="text" placeholder="Assunto">
+        </div>
+        <div class="form-second-block">
+          <textarea class="form-textarea" placeholder="Mensagem"></textarea>
+        </div>
+      </div>
+      <button class="form-button">Enviar mensagem</button>
+      <p>A sua mensagem foi recebida! Em breve retornaremos :)</p>
+    </div>
+    <div class="contact-us">
+      <p class="contact-us-first-paragraph">Empresa orgulhosamente instalada no:</p>
+      <img src="images/tecnopuc-logo.png">
+      <p class="contact-us-second-paragraph"><strong>Campus PUCRS:</strong> Av. Ipiranga, 6681, 96A - sala 204.<br>Bairro Partenon. Porto Alegre - RS. CEP: 90619-900.</p>
+      <p class="contact-us-second-paragraph"><strong>E-mail:</strong> amparo@amparoapp.com.br<br><strong>Telefone/Whatsapp:</strong> (51) 98944-2196</p>
+    </div>
+  </section>
+  <footer class="footer-content">
+    <div class="footer-cols-content">
+      <div class="footer-col-1">
+        <a href="#header" class="container-link_scroll footer-logo"></a>
+        <p>Suspendisse pellentesque nunc tempor consequat iaculis. Nam a libero in justo imperdiet lacinia.</p>
+      </div>
+      <div class="footer-col-2">
+        <a href="" class="footer-anchor">Para quem foi feito?</a>
+        <a href="" class="footer-anchor">Como funciona?</a>
+        <a href="" class="footer-anchor">Profissionais Disponíveis</a>
+        <a href="" class="footer-anchor">Procedimentos Disponíveis</a>
+        <a href="" class="footer-anchor">Dúvidas Frequentes</a>
+        <a href="" class="footer-anchor">Central de Atendimento</a>
+      </div>
+      <div class="footer-col-3">
+        <a href="" class="footer-last-col-p footer-anchor">Solicite um procedimento</a>
+        <a href="" class="footer-last-col-p footer-anchor">Seja um profissional</a>
+        <a href="" class="footer-last-col-p footer-anchor">Política de Privacidade</a>
+        <a href="" class="footer-last-col-p footer-anchor">Termos de Uso</a>
+        <div class="footer-col-3-socials">
+          <p class="footer-last-p">Siga:</p>
+          <img src="images/footer-facebook.png">
+          <img src="images/footer-instagram.png">
+        </div>
+      </div>
+    </div>
+    <p class="footer-copyright">2021 © Amparo App - Todos os direitos reservados. Site projetado por brifa.me e desenvolvido por BlueLogic.</p>
+  </footer>
+  <div class="final"></div>
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
