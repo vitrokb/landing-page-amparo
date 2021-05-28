@@ -1,3 +1,14 @@
+// toggle Component class
+
+const classToggle = document.querySelectorAll('.comp-4-identifier');
+
+classToggle.forEach((item) => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('comp-4-button-active')
+  })
+});
+
+
 // nav link scroll
 const menuItems = document.querySelectorAll('.container-link_scroll')
 
@@ -191,3 +202,14 @@ userButtonResponsive.addEventListener('click', () => {
   arrowIdentifierResponsive.classList.toggle('down', !showMenuResponsive);
   showMenuResponsive = !showMenuResponsive;
 });
+
+
+
+// componente 4 toggle class
+
+
+
+function toggleClass(event) {
+  console.log(teste)
+}
+

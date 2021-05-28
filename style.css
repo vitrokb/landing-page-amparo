@@ -2823,3 +2823,299 @@ a:active {
     transform: translate(-70px, -80px);
   }
 }
+
+
+
+
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+/* <-------------------- Components CSS ------------------> */
+
+
+
+.main-conten-components {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 250vh;
+  width: 100vw;
+}
+
+                      /* COMPONENTE 1 */
+.customcheck-component-1 {
+  width: 7px;
+  height: 11px;
+  border: solid #ffa759;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg) translateY(-2px);
+}
+
+.componente-1 {
+  margin: 50px;
+}
+
+.comp-1-content {
+  background-color: #ffffff;
+}
+
+.comp-1 {
+  border-radius: 30px;
+  align-items: center;
+  background-color: #f9f9f9;
+  display: flex;
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+
+.comp-1-paragraph {
+  font-size: 1.5rem;
+  margin-left: 8px;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Montserrat-Extra-Light";
+}
+
+                      /* COMPONENTE 2 */
+
+.componente-2 {
+  display: flex;
+}
+
+.comp-2-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.toggle-button-comp-2 {
+  background-color: #ff416e;
+  border: none;
+  border-radius: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 10px;
+  /* text-align: center; */
+  height: 25px;
+  width: 25px;
+  /* min-width: 20px; */
+  /* min-height: 20px; */
+}
+
+.comp-2-paragraph {
+  font-size: 1.5rem;
+  padding-left: 8px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.comp-2-paragraph:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.comp-2-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  /* color: #ffffff; */
+  font-size: 1.6rem;
+  /* font-weight: 500; */
+  font-family: "Montserrat-Regular";
+  /* padding: 4px 20px; */
+  /* transform: translateY(7px); */
+  outline: none;
+  overflow: hidden;
+}
+
+.comp-2-button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.comp-2-button:hover {
+  color: #ffa559;
+  text-decoration: underline;
+}
+
+                      /* COMPONENTE 3 */
+
+.componente-3 {
+  margin: 40px;
+}
+
+.comp-3-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.comp-3-picture {
+  background-image: url('./images/Amparo_FotosEspecialidades_Cuidadora.png');
+  background-repeat: no-repeat;
+  background-size: 160px;
+  height: 160px;
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+.toggle-button-comp-3 {
+  background-color: #ff416e;
+  border: none;
+  border-radius: 100%;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 10px;
+  height: 30px;
+  width: 30px;
+  /* min-width: 25px;
+  min-height: 25px; */
+  transform: translate(115px, 125px);
+}
+
+
+.comp-3-paragraph {
+  font-size: 1.8rem;
+  padding-left: 8px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.comp-3-paragraph:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ffa559;
+}
+
+                      /* COMPONENTE 4 */
+
+.componente-4-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.comp-4 {
+  align-items: center;
+  display: flex;
+  /* padding: 10px 20px; */
+  margin: 5px 0;
+}
+
+.comp-4-button {
+  /* background-color: Transparent; */
+  background-color: #f9f9f9;
+  border-radius: 30px;
+  /* background-repeat: no-repeat; */
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 8px;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Montserrat-Light";
+  padding: 10px 15px;
+}
+
+.comp-4-button:hover {
+  background-color: #ffa559;
+  color: #ffffff;
+}
+
+.comp-4-button-active {
+  color: #ffffff;
+  background-color: #ffa559;
+}
+
+.comp-4-button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+                      /* COMPONENTE 5 */
+
+.componente-5 {
+  background-color: #ffffff;
+  margin: 30px;
+  padding: 50px
+}
+
+
+/* Mudando o tamanho desse content fará o overflow aparecer ou não */
+.comp-5-content {
+  height: 100px;
+  overflow: auto;
+}
+
+.comp-5 {
+  display: flex;
+}
+
+.comp-5-chave {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Thin";
+  font-weight: 900;
+}
+
+.comp-5-valor {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Thin";
+  margin-left: 3px;
+}
+
+.comp-5-titulo {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Thin";
+  font-weight: 900;
+}
+
+.comp-5-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: #ff416e;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  font-family: "Montserrat-Thin";
+  font-weight: 900;
+  transform: translateY(-3px)
+}
+
+.comp-5-button-img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 4px;
+}
+
+.comp-5-button:hover {
+  text-decoration: underline;
+}
+
+.comp-5-button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.comp-2-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  /* color: #ffffff; */
+  font-size: 1.6rem;
+  /* font-weight: 500; */
+  font-family: "Montserrat-Regular";
+  /* padding: 4px 20px; */
+  /* transform: translateY(7px); */
+  outline: none;
+  overflow: hidden;
+}
