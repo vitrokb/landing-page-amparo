@@ -79,20 +79,24 @@ window.addEventListener('scroll', () => {
 const navLogin = document.getElementById('nav-login-identifier');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 130) {
-    navLogin.classList.add('nav-background');
-  } else {
-    navLogin.classList.remove('nav-background');
+  if (navLogin) {
+    if (window.scrollY > 130) {
+      navLogin.classList.add('nav-background');
+    } else {
+      navLogin.classList.remove('nav-background');
+    }
   }
 })
 
 const responsiveNavLoginBg = document.getElementById('responsive-nav-login-identifier');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 130) {
-    responsiveNavLoginBg.classList.add('nav-background');
-  } else {
-    responsiveNavLoginBg.classList.remove('nav-background');
+  if (responsiveNavLoginBg) {
+    if (window.scrollY > 130) {
+      responsiveNavLoginBg.classList.add('nav-background');
+    } else {
+      responsiveNavLoginBg.classList.remove('nav-background');
+    }
   }
 })
 

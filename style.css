@@ -1702,7 +1702,7 @@ a:active {
   padding-top: 70px;
 }
 
-.login-title-content h6 {
+.login-title-h6 {
   width: 555px;
   height: 24px;
   font-size: 1.6rem;
@@ -1712,7 +1712,7 @@ a:active {
   text-align: center;
 }
 
-.login-title-content h2 {
+.login-title-h2 {
   font-size: 3.0rem;
   color: #302b2c;
   font-weight: 700;
@@ -1720,7 +1720,7 @@ a:active {
   text-align: center;
 }
 
-.login-title-content p {
+.login-title-paragraph {
   max-width: 350px;
   height: 57px;
   margin-bottom: 30px;
@@ -1745,9 +1745,13 @@ a:active {
   padding: 20px;
   width: 100%;
   /* margin: 10px; */
-  background-image: url('./login-icons/envelope.png');
-  background-repeat: no-repeat;
-  background-position: 96% 15px;
+}
+
+.login-input-img {
+  position: absolute;
+  transform: translate(-30px, 18px); 
+  width: 20px;
+  height: 15px;
 }
 
 .login-input-password {
@@ -2064,6 +2068,7 @@ a:active {
 } */
 
 .user-img {
+  border-radius: 25px;
   height: 50px;
   margin-right: 10px;
   width: 50px;
@@ -2080,6 +2085,12 @@ a:active {
   border-top-right-radius: 15px;
 }
 
+.button-login-content {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
 .user-login-content {
   background-color: #ffffff;
   font-size: 1.4rem;
@@ -2087,7 +2098,7 @@ a:active {
   position: fixed;
   z-index: 110;
   border-radius: 15px;
-  transform: translate(-125px, 25px);
+  transform: translate(-10px, 100px);
 }
 
 .first-login-options {
@@ -2781,7 +2792,7 @@ a:active {
     transform: translate(115px, -55px);
   }
 
-  .login-title-content p {
+  .login-title-paragraph {
     max-width: 300px;
   }
 }
